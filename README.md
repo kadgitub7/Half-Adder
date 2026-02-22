@@ -71,7 +71,7 @@ Karnaugh maps for the two outputs **S** and **C** in terms of **A** and **B**. R
 | **1** | 1 | 0 |
 
 **Observation:** **S** is 1 when A and B differ. No single grouping of 1s simplifies to a product term; the minimal expression is the XOR of A and B.
-
+$$S = B’A + BA’
 $$S = A \oplus B$$
 
 ---
@@ -107,7 +107,7 @@ In Verilog, these are implemented as `assign S = A ^ B;` and `assign C = A & B;`
 
 ## Circuit Diagram
 
-![Circuit Diagram](imageAssets/halfAdderCircuitDiagram.png)
+![Circuit Diagram](imageAssets/halfAdderCircuit.png)
 
 *Circuit diagram: half adder with inputs A, B and outputs S (sum) and C (carry), using one XOR gate and one AND gate.*
 
