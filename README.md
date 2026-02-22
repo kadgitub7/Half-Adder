@@ -71,7 +71,8 @@ Karnaugh maps for the two outputs **S** and **C** in terms of **A** and **B**. R
 | **1** | 1 | 0 |
 
 **Observation:** **S** is 1 when A and B differ. No single grouping of 1s simplifies to a product term; the minimal expression is the XOR of A and B.
-$$S = B’A + BA’
+
+$$S = B'A + A'B$$
 $$S = A \oplus B$$
 
 ---
